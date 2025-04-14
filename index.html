@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <h1>Your Name</h1>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="resume.pdf" download class="resume-btn">Download Resume</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section with Background Effect -->
+  <header class="hero">
+    <h2 id="typed-text"></h2>
+    <p>Specialist in Backend Development & Scalable Systems</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a passionate Java backend developer who builds secure and scalable applications using Spring Boot, SQL, and modern technologies.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <i class="fab fa-java"></i>
+        <p>Java</p>
+      </div>
+      <div class="skill">
+        <i class="fas fa-database"></i>
+        <p>SQL & DBMS</p>
+      </div>
+      <div class="skill">
+        <i class="fas fa-leaf"></i>
+        <p>Spring Boot</p>
+      </div>
+      <div class="skill">
+        <i class="fab fa-git-alt"></i>
+        <p>Git & GitHub</p>
+      </div>
+      <div class="skill">
+        <i class="fab fa-html5"></i>
+        <p>HTML</p>
+      </div>
+      <div class="skill">
+        <i class="fab fa-css3-alt"></i>
+        <p>CSS</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>A backend API service built with Java and Spring Boot.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>A database management system interface using SQL and Java.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
